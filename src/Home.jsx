@@ -1,6 +1,7 @@
 import Nav from "./Comp/Nav";
 import Vid from "./Comp/Vid";
 import Categ from './Comp/Categ';
+import Services from './Comp/Services';
 import Foot from "./Comp/Foot"
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
             <Nav />
             <Vid />
             <Categ />
+            <Services />
             <Foot />
         </>
     )

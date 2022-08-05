@@ -23,7 +23,8 @@ export default function Vid() {
       </div>
       <div className="vid-text">
         <h1>We Help Gardens Thrive!</h1>
-        <h4>We're a Maine-based nonprofit providing grants, crowdfunding opportunities and training to food garden projects across the country and around the world.</h4>
+        <h4> If you have an empty space at your place, let us help you by taking you on a beautiful journey and turning the void space into a beautiful garden.
+          You wield the power to beautify your green space by making garden space as your tool in the process.</h4>
       </div>
     </>
   )
