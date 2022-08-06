@@ -4,6 +4,7 @@
     z-index: -1;
     /* height: 2px; */
     width: 100%;
+    margin-bottom: -7px;
 }
 
 .vid-text {
@@ -76,7 +77,13 @@
         left: auto;
     }
 }
-
+.categ{
+    margin: 0px;
+    background-image: url(../Assets/cat.jpg);
+    background-position: 5px;
+    /* background-attachment: fixed; */
+    background-repeat: repeat;
+}
 .categ div {
     display: flex;
     justify-content: center;
@@ -89,18 +96,16 @@
 }
 
 .categ li {
+    font-weight: 500;
+    text-align: left;
     margin: 2%;
-    font-size: 1.2rem;
-}
-
-.categ img:hover {
-    transition: all 0.6s;
-    transform: scale(1.03);
+    padding: 1%;
+    font-size: 1.4rem;
 }
 
 .serv {
     text-align: center;
-    margin-top: 2%;
+    /* margin-top:      2%; */
     /* margin: 2% 0px; */
     box-shadow: 0px 1px 10px 0px black;
     background-color: #1ae5c7;
