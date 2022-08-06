@@ -5,10 +5,11 @@
     /* height: 2px; */
     width: 100%;
 }
-.vid-text{
+
+.vid-text {
     position: absolute;
     top: 60%;
-    width   : 30%;
+    width: 30%;
     left: 10%;
     /* height: 100%; */
     color: aliceblue;
@@ -17,16 +18,19 @@
     /* margin-top: 20%; */
     /* margin-left: 10%; */
 }
+
 @media screen and (min-width: 990px) {
     #mob {
         display: none;
     }
 }
+
 @media screen and (max-width: 990px) {
     #pc {
         display: none;
     }
-    .vid-text{
+
+    .vid-text {
         /* position: relative; */
         width: 100%;
         left: 0%;
@@ -35,18 +39,20 @@
     }
 }
 
-.head{
+.head {
     position: absolute;
     left: 50%;
 }
-.head a{
+
+.head a {
     color: aliceblue;
     margin: 30px 40px;
     font-size: 20px;
     /* box-shadow: 2px 2px 20px 2px green; */
-    font-weight: 900;  
+    font-weight: 900;
 }
-.head img{
+
+.head img {
     min-width: 100px;
     padding-top: 30px;
     position: fixed;
@@ -55,13 +61,15 @@
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
 }
-.head img:hover{
+
+.head img:hover {
     cursor: pointer;
     background-color: greenyellow;
     transition: 0.3s all;
     /* margin: 2%; */
     /* transform: scale(1.1); */
 }
+
 @media screen and (max-width: 990px) {
     .head img {
         right: 10%;
@@ -69,67 +77,101 @@
     }
 }
 
-.categ div{
+.categ div {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
 }
+
 .categ section {
     width: 50%;
     text-align: center;
 }
-.categ li{
+
+.categ li {
     margin: 2%;
     font-size: 1.2rem;
 }
-.categ img:hover{
+
+.categ img:hover {
     transition: all 0.6s;
     transform: scale(1.03);
 }
 
-.serv{
+.serv {
     text-align: center;
-    margin: 2% 0px;
+    margin-top: 2%;
+    /* margin: 2% 0px; */
     box-shadow: 0px 1px 10px 0px black;
     background-color: #1ae5c7;
     /* border:#1ae5c7 2solid 1px; */
     padding: 2%;
 }
-.serv div{
+
+.serv div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.serv section{
+
+.serv section {
     margin: auto;
     /* background-color: aquamarine; */
     overflow: hidden;
     width: 40%;
 }
-.serve fig{
+
+.serve fig {
     overflow: hidden;
     z-index: 0;
 }
-.serve fig img{
+
+.serve fig img {
     border-radius: 200px;
 }
+
 .serv section img:hover {
     cursor: pointer;
     transition: 0.6s all;
     transform: scale(1.03);
 }
+
 .form {
     background-image: url(../Assets/form.jpg);
     background-attachment: fixed;
+    filter: blur(3);
     padding: 5%;
     /* color: whitesmoke; */
 }
-.form div{
+
+.form div {
     max-width: 1400px;
     margin: 2% auto;
     justify-content: center;
     text-align: center;
 }
-.form label{
-    margin:1% 5%;
+
+.form label {
+    margin: 1% 5%;
+}
+
+.form input {
+    padding: 0px 2%;
+}
+
+.form button {
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 2%;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+}
+.form button:hover{
+    background-color:#1ae5c7;
+    color: black;
+    transition: all 0.6s;
 }
