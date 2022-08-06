@@ -30,6 +30,7 @@ export default function Form() {
               onChange={e => setNum(e.target.value)}
               type="text" placeholder="Enter the Phone Number " />
           </label>
+          <br></br>
           <button>Submit</button>
         </div>
       </div>
