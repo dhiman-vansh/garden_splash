@@ -151,18 +151,14 @@
     text-align: center;
 }
 
-.form label {
-    margin: 1% 5%;
-}
-
 .form input {
-    padding: 0px 2%;
+    padding: 15px 25px;
 }
 
 .form button {
     text-decoration: none;
     background-color: green;
-    padding: 10px 2%;
+    padding: 15px 5%;
     color: aliceblue;
     text-transform: uppercase;
     font-weight: 600;
