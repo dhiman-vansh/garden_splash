@@ -155,7 +155,9 @@
     justify-content: center;
     text-align: center;
 }
-
+.form label{
+    margin: 0px 2%;
+}
 .form input {
     padding: 15px 25px;
 }
