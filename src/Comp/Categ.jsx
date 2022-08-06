@@ -14,7 +14,7 @@ export default function Categ(props) {
           </section>
           <section>
             <h1>TERRACE FARMING</h1>
-            <h4>Adantages - </h4>
+            {/* <h4>Adantages - </h4> */}
             {/* <ol> */}
               <li>Helps in reducing the indoor temperature by 6 to 8 degrees which also reduces the cost of air conditioning.</li>
               <li>Reduces the heat absorption in buildings and insulate them against heat and cold.</li>
@@ -27,7 +27,7 @@ export default function Categ(props) {
         <div>
           <section>
             <h1>WATER BODIES</h1>
-            <h4>Advantages -</h4>
+            {/* <h4>Advantages -</h4> */}
             {/* <ol> */}
               <li>Helps reducing stress.</li>
               <li>Absorbs heat.</li>

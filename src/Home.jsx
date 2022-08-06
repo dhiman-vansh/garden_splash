@@ -3,6 +3,7 @@ import Vid from "./Comp/Vid";
 import Categ from './Comp/Categ';
 import Services from './Comp/Services';
 import Foot from "./Comp/Foot"
+import Form from "./Comp/Form";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Vid />
             <Categ />
             <Services />
+            <Form />
             <Foot />
         </>
     )

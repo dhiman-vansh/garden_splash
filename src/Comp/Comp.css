@@ -78,6 +78,14 @@
     width: 50%;
     text-align: center;
 }
+.categ li{
+    margin: 2%;
+    font-size: 1.2rem;
+}
+.categ img:hover{
+    transition: all 0.6s;
+    transform: scale(1.03);
+}
 
 .serv{
     text-align: center;
@@ -109,4 +117,19 @@
     cursor: pointer;
     transition: 0.6s all;
     transform: scale(1.03);
+}
+.form {
+    background-image: url(../Assets/form.jpg);
+    background-attachment: fixed;
+    padding: 5%;
+    /* color: whitesmoke; */
+}
+.form div{
+    max-width: 1400px;
+    margin: 2% auto;
+    justify-content: center;
+    text-align: center;
+}
+.form label{
+    margin:1% 5%;
 }
