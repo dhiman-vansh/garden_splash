@@ -57,6 +57,7 @@
     min-width: 100px;
     padding-top: 30px;
     position: fixed;
+    z-index: 100;
     left: 10%;
     background-color: aliceblue;
     border-bottom-left-radius: 25%;
@@ -113,6 +114,7 @@
     background-color: #1ae5c7;
     /* border:#1ae5c7 2solid 1px; */
     padding: 2%;
+    /* z-index: 100; */
 }
 
 .serv div {
